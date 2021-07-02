@@ -1,5 +1,5 @@
 # Projeto-Headot
-Projeto feito como um exercício para avaliar conhecimentos para uma vaga de estágio
+Projeto feito como um exercício para avaliar conhecimentos para uma vaga de estágio utilizando java e springboot.
 
 ## Como utilizar:
 * Ter jdk 11 instalada,
@@ -7,5 +7,5 @@ Projeto feito como um exercício para avaliar conhecimentos para uma vaga de est
 * Acessar o site no endereço localhost:8080/
 
 ## Funções:
-1 Lista todos os artigos (posts) do id desejado no endereço localhost:8080/
-2 Lista todos os artigos (post) no endereço localhost:8080/all
+1. Lista todos os artigos (posts) do id desejado no endereço localhost:8080/
+2. Lista todos os artigos (post) no endereço localhost:8080/all
