@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.Headot</groupId>
 	<artifactId>Redatores</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>Gerencia de Redatores</name>
 	<description>Avaliação de conhecimentos para estagio</description>
 	<properties>

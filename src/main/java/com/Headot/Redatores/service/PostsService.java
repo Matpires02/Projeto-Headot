@@ -1,3 +1,8 @@
+/**
+ * Autor: Matheus Pires Gouveia dos Santos
+ * Data do Término: 02/07/2021
+ */
+
 package com.Headot.Redatores.service;
 
 import com.Headot.Redatores.model.Post;
@@ -15,6 +20,11 @@ public class PostsService {
     private final RestTemplate restTemplate = new RestTemplate();
     private final String url = "https://jsonplaceholder.typicode.com/posts";
 
+    /**
+     * Método responsável por buscar no endpoint todas as postagens e separar somente as postagens de um redator específico, utilizando seu identificador único.
+     * @param id Identificador único de um Redator.
+     * @return Retorna uma lista de artigos redigidos por um redator específico.
+     */
     public List<Post> getPostsById(String id) {
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
 
@@ -30,6 +40,10 @@ public class PostsService {
         return requirePosts;
     }
 
+    /**
+     * Método responsável por buscar no endpoint todas as postagens de todos redatores.
+     * @return Retorna uma lista de artigos redigidos por todos os redatores.
+     */
     public List<Post> getAllPosts() {
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
 

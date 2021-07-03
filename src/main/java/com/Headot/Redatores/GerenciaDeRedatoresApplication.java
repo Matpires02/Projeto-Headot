@@ -1,3 +1,8 @@
+/**
+ * Autor: Matheus Pires Gouveia dos Santos
+ * Data do Término: 02/07/2021
+ */
+
 package com.Headot.Redatores;
 
 import org.springframework.boot.SpringApplication;
